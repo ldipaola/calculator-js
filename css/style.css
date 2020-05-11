@@ -1,0 +1,35 @@
+html, body{
+    background-color: black;
+    font-family: 'Courier', monospace;
+  }
+  form{
+    text-align: center;
+  }
+  #button-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0.4em;
+    margin-top: 10px;
+  }
+  
+  #container {
+    background-color: black;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+  }
+  h1{
+    color: white;
+  }
+  input[type="button"]{
+    width: 60px;
+    height: 60px;
+    font-size: 1rem;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    
+  }
+  input[type="button"]:hover{
+    background-color: #79a9f7;
+  }
